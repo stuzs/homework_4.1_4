@@ -1,0 +1,13 @@
+
+Please CAREFULLY read the questions and follow instructions to answer.
+
+Problem 1. Ask your friend to build demo_x.c (installing X11 development library first) and change the umbrella to another icon, then try to remotely enter your friend's computer by ssh, display this program on your own computer's screen, along with your local umbrella version program.
+
+Problem 2. Find a file makefile.bit from our ftp site. Read it and find other two related source files. Download them all to your computer and try to make and run. Explain the usage and function of the result program.
+
+Problem 3. 1) Download cube_wrong.tar from our ftp site, check its contents, extract it, make it and execute it (all actions must be in text mode). 2) Find the reasons for compiling warnings, and remove them. 3) (OPTIONAL) Compare the running result with screenshot_cube_correct.png, and then try to find hidden bugs by running gdb/ddd. Take a screenshot too whether you fix all bugs or not; however if bugs are fixed, the screenshot should include the modified code.
+
+Problem 4. Install a utility 'look' and run it. Find where the dictionary is. Now write scripts (must use vi; OK in bash/tcl/perl/python or mixed) to process the dictionary, in order to answer following questions.
+1) How many words the dictionary has? Which word is the longest? 2) Write commands as few as possible to show all words having 4 consecutive vowels, beginning with a lower-case letter and not ending with 's. 3) How many times each alphabet appears in the whole dictionary? 4) One word might be just a duplicate of another word appended with an s or a 's suffix. How many such words the dictionary has? 5) Are there words containing a pattern like 'XXYYZZ'? 
+
+Problem 5. Run Python scripts of demo_8queen.py and demo_showqueens.py, read the source code, comments and their outputs. (OPTIONAL) Then write a Perl or Python script to analyze the solutions in 8queen.out, and answer how many kinds of the solutions are unique. (symmetrical solutions are not considered as unique, for example, one solution being mirrored or rotated should be eliminated from the unique list)
